@@ -38,6 +38,10 @@
     },
     "tags": {
       "collection": "tag"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }
