@@ -42,6 +42,10 @@
     "user": {
       "plugin": "users-permissions",
       "model": "user"
+    },
+    "excerpt": {
+      "type": "text",
+      "maxLength": 255
     }
   }
 }
