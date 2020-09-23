@@ -11,6 +11,13 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images"],
+      "plugin": "upload",
+      "required": true
     }
   }
 }
